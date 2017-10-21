@@ -7,13 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		11039DC21F9BBFC60097320E /* Step2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11039DC11F9BBFC60097320E /* Step2ViewController.swift */; };
+		11039DC41F9BBFE60097320E /* Step3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11039DC31F9BBFE60097320E /* Step3ViewController.swift */; };
+		11039DC61F9BBFF20097320E /* Step4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11039DC51F9BBFF20097320E /* Step4ViewController.swift */; };
+		11039DC81F9BBFFD0097320E /* Step5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11039DC71F9BBFFD0097320E /* Step5ViewController.swift */; };
+		113AA72E1F9BA62900172DFF /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113AA72D1F9BA62900172DFF /* NavigationViewController.swift */; };
 		1166C9291F9B32E900798F0B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1166C9281F9B32E900798F0B /* AppDelegate.swift */; };
-		1166C92B1F9B32E900798F0B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1166C92A1F9B32E900798F0B /* ViewController.swift */; };
 		1166C92E1F9B32E900798F0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1166C92C1F9B32E900798F0B /* Main.storyboard */; };
 		1166C9301F9B32E900798F0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1166C92F1F9B32E900798F0B /* Assets.xcassets */; };
 		1166C9331F9B32E900798F0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1166C9311F9B32E900798F0B /* LaunchScreen.storyboard */; };
 		1166C93E1F9B32EA00798F0B /* App_01_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1166C93D1F9B32EA00798F0B /* App_01_DemoTests.swift */; };
 		1166C9491F9B32EA00798F0B /* App_01_DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1166C9481F9B32EA00798F0B /* App_01_DemoUITests.swift */; };
+		1166C95A1F9B41B600798F0B /* GradientButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1166C9591F9B41B600798F0B /* GradientButton.swift */; };
+		1166C95E1F9B426B00798F0B /* AddressForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1166C95D1F9B426B00798F0B /* AddressForm.swift */; };
+		1166C9601F9B428400798F0B /* CheckboxButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1166C95F1F9B428400798F0B /* CheckboxButton.swift */; };
+		1166C9621F9B42CA00798F0B /* AddressForm.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1166C9611F9B42CA00798F0B /* AddressForm.xib */; };
+		1166C9651F9B430D00798F0B /* CustomTextField.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1166C9641F9B430D00798F0B /* CustomTextField.xib */; };
+		1166C9671F9B432400798F0B /* CheckboxButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1166C9661F9B432400798F0B /* CheckboxButton.xib */; };
+		1166C9691F9B434F00798F0B /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1166C9681F9B434F00798F0B /* CustomTextField.swift */; };
+		1166C96C1F9BA22E00798F0B /* Step1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1166C96B1F9BA22E00798F0B /* Step1ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +46,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		11039DC11F9BBFC60097320E /* Step2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step2ViewController.swift; sourceTree = "<group>"; };
+		11039DC31F9BBFE60097320E /* Step3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step3ViewController.swift; sourceTree = "<group>"; };
+		11039DC51F9BBFF20097320E /* Step4ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step4ViewController.swift; sourceTree = "<group>"; };
+		11039DC71F9BBFFD0097320E /* Step5ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step5ViewController.swift; sourceTree = "<group>"; };
+		113AA72D1F9BA62900172DFF /* NavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
 		1166C9251F9B32E900798F0B /* App-01-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "App-01-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1166C9281F9B32E900798F0B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1166C92A1F9B32E900798F0B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1166C92D1F9B32E900798F0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1166C92F1F9B32E900798F0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1166C9321F9B32E900798F0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +63,14 @@
 		1166C9441F9B32EA00798F0B /* App-01-DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "App-01-DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1166C9481F9B32EA00798F0B /* App_01_DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App_01_DemoUITests.swift; sourceTree = "<group>"; };
 		1166C94A1F9B32EA00798F0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1166C9591F9B41B600798F0B /* GradientButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientButton.swift; sourceTree = "<group>"; };
+		1166C95D1F9B426B00798F0B /* AddressForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressForm.swift; sourceTree = "<group>"; };
+		1166C95F1F9B428400798F0B /* CheckboxButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckboxButton.swift; sourceTree = "<group>"; };
+		1166C9611F9B42CA00798F0B /* AddressForm.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddressForm.xib; sourceTree = "<group>"; };
+		1166C9641F9B430D00798F0B /* CustomTextField.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTextField.xib; sourceTree = "<group>"; };
+		1166C9661F9B432400798F0B /* CheckboxButton.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CheckboxButton.xib; sourceTree = "<group>"; };
+		1166C9681F9B434F00798F0B /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		1166C96B1F9BA22E00798F0B /* Step1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step1ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +121,9 @@
 		1166C9271F9B32E900798F0B /* App-01-Demo */ = {
 			isa = PBXGroup;
 			children = (
+				1166C9561F9B413A00798F0B /* Views */,
+				1166C96A1F9BA1EF00798F0B /* ViewControllers */,
 				1166C9281F9B32E900798F0B /* AppDelegate.swift */,
-				1166C92A1F9B32E900798F0B /* ViewController.swift */,
 				1166C92C1F9B32E900798F0B /* Main.storyboard */,
 				1166C92F1F9B32E900798F0B /* Assets.xcassets */,
 				1166C9311F9B32E900798F0B /* LaunchScreen.storyboard */,
@@ -123,6 +148,57 @@
 				1166C94A1F9B32EA00798F0B /* Info.plist */,
 			);
 			path = "App-01-DemoUITests";
+			sourceTree = "<group>";
+		};
+		1166C9561F9B413A00798F0B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1166C95B1F9B421D00798F0B /* CheckboxButton */,
+				1166C9631F9B42D800798F0B /* CustomTextField */,
+				1166C95C1F9B424600798F0B /* AddressForm */,
+				1166C9591F9B41B600798F0B /* GradientButton.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1166C95B1F9B421D00798F0B /* CheckboxButton */ = {
+			isa = PBXGroup;
+			children = (
+				1166C95F1F9B428400798F0B /* CheckboxButton.swift */,
+				1166C9661F9B432400798F0B /* CheckboxButton.xib */,
+			);
+			path = CheckboxButton;
+			sourceTree = "<group>";
+		};
+		1166C95C1F9B424600798F0B /* AddressForm */ = {
+			isa = PBXGroup;
+			children = (
+				1166C95D1F9B426B00798F0B /* AddressForm.swift */,
+				1166C9611F9B42CA00798F0B /* AddressForm.xib */,
+			);
+			path = AddressForm;
+			sourceTree = "<group>";
+		};
+		1166C9631F9B42D800798F0B /* CustomTextField */ = {
+			isa = PBXGroup;
+			children = (
+				1166C9641F9B430D00798F0B /* CustomTextField.xib */,
+				1166C9681F9B434F00798F0B /* CustomTextField.swift */,
+			);
+			path = CustomTextField;
+			sourceTree = "<group>";
+		};
+		1166C96A1F9BA1EF00798F0B /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				113AA72D1F9BA62900172DFF /* NavigationViewController.swift */,
+				1166C96B1F9BA22E00798F0B /* Step1ViewController.swift */,
+				11039DC11F9BBFC60097320E /* Step2ViewController.swift */,
+				11039DC31F9BBFE60097320E /* Step3ViewController.swift */,
+				11039DC51F9BBFF20097320E /* Step4ViewController.swift */,
+				11039DC71F9BBFFD0097320E /* Step5ViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,8 +308,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1166C9651F9B430D00798F0B /* CustomTextField.xib in Resources */,
 				1166C9331F9B32E900798F0B /* LaunchScreen.storyboard in Resources */,
 				1166C9301F9B32E900798F0B /* Assets.xcassets in Resources */,
+				1166C9621F9B42CA00798F0B /* AddressForm.xib in Resources */,
+				1166C9671F9B432400798F0B /* CheckboxButton.xib in Resources */,
 				1166C92E1F9B32E900798F0B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,7 +338,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1166C92B1F9B32E900798F0B /* ViewController.swift in Sources */,
+				11039DC81F9BBFFD0097320E /* Step5ViewController.swift in Sources */,
+				11039DC41F9BBFE60097320E /* Step3ViewController.swift in Sources */,
+				11039DC61F9BBFF20097320E /* Step4ViewController.swift in Sources */,
+				1166C96C1F9BA22E00798F0B /* Step1ViewController.swift in Sources */,
+				1166C9601F9B428400798F0B /* CheckboxButton.swift in Sources */,
+				1166C9691F9B434F00798F0B /* CustomTextField.swift in Sources */,
+				11039DC21F9BBFC60097320E /* Step2ViewController.swift in Sources */,
+				1166C95A1F9B41B600798F0B /* GradientButton.swift in Sources */,
+				1166C95E1F9B426B00798F0B /* AddressForm.swift in Sources */,
+				113AA72E1F9BA62900172DFF /* NavigationViewController.swift in Sources */,
 				1166C9291F9B32E900798F0B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
