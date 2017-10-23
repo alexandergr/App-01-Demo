@@ -11,6 +11,7 @@
 		11039DC41F9BBFE60097320E /* Step3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11039DC31F9BBFE60097320E /* Step3ViewController.swift */; };
 		11039DC61F9BBFF20097320E /* Step4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11039DC51F9BBFF20097320E /* Step4ViewController.swift */; };
 		11039DC81F9BBFFD0097320E /* Step5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11039DC71F9BBFFD0097320E /* Step5ViewController.swift */; };
+		11039DCF1F9E527D0097320E /* Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11039DCE1F9E527D0097320E /* Animations.swift */; };
 		113AA72E1F9BA62900172DFF /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113AA72D1F9BA62900172DFF /* NavigationViewController.swift */; };
 		1166C9291F9B32E900798F0B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1166C9281F9B32E900798F0B /* AppDelegate.swift */; };
 		1166C92E1F9B32E900798F0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1166C92C1F9B32E900798F0B /* Main.storyboard */; };
@@ -50,6 +51,7 @@
 		11039DC31F9BBFE60097320E /* Step3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step3ViewController.swift; sourceTree = "<group>"; };
 		11039DC51F9BBFF20097320E /* Step4ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step4ViewController.swift; sourceTree = "<group>"; };
 		11039DC71F9BBFFD0097320E /* Step5ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step5ViewController.swift; sourceTree = "<group>"; };
+		11039DCE1F9E527D0097320E /* Animations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animations.swift; sourceTree = "<group>"; };
 		113AA72D1F9BA62900172DFF /* NavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
 		1166C9251F9B32E900798F0B /* App-01-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "App-01-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1166C9281F9B32E900798F0B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -98,6 +100,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		11039DCD1F9E52630097320E /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				11039DCE1F9E527D0097320E /* Animations.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		1166C91C1F9B32E900798F0B = {
 			isa = PBXGroup;
 			children = (
@@ -153,6 +163,7 @@
 		1166C9561F9B413A00798F0B /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				11039DCD1F9E52630097320E /* Helpers */,
 				1166C95B1F9B421D00798F0B /* CheckboxButton */,
 				1166C9631F9B42D800798F0B /* CustomTextField */,
 				1166C95C1F9B424600798F0B /* AddressForm */,
@@ -339,6 +350,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				11039DC81F9BBFFD0097320E /* Step5ViewController.swift in Sources */,
+				11039DCF1F9E527D0097320E /* Animations.swift in Sources */,
 				11039DC41F9BBFE60097320E /* Step3ViewController.swift in Sources */,
 				11039DC61F9BBFF20097320E /* Step4ViewController.swift in Sources */,
 				1166C96C1F9BA22E00798F0B /* Step1ViewController.swift in Sources */,

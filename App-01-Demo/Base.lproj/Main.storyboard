@@ -160,9 +160,9 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="QWg-5P-o34" firstAttribute="top" secondItem="EJE-oy-BQ8" secondAttribute="top" id="46a-Nu-rs3"/>
+                            <constraint firstAttribute="bottom" secondItem="QWg-5P-o34" secondAttribute="bottom" id="4tg-ua-IdH"/>
                             <constraint firstItem="KqI-vM-KUr" firstAttribute="top" secondItem="lji-x5-gsO" secondAttribute="bottom" id="8cX-lY-HHD"/>
                             <constraint firstItem="lji-x5-gsO" firstAttribute="leading" secondItem="fym-QG-Vxa" secondAttribute="leading" id="Bxz-XS-Kwe"/>
                             <constraint firstAttribute="trailing" secondItem="QWg-5P-o34" secondAttribute="trailing" id="C4o-8T-ONJ"/>
@@ -446,7 +446,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="Glückwunsch: Innerhalb der nächsten 2-3 Tage sind all deine Vertragspartner über deine neue Anschrift informiert." textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mxf-2L-HeR">
-                                <rect key="frame" x="40" y="303" width="295" height="46.5"/>
+                                <rect key="frame" x="40" y="302.5" width="295" height="46.5"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="13"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -535,6 +535,15 @@
                         <viewLayoutGuide key="safeArea" id="DXY-J6-1bM"/>
                     </view>
                     <nil key="simulatedTopBarMetrics"/>
+                    <connections>
+                        <outlet property="button1" destination="HnN-wk-6ZH" id="4jm-kS-e7y"/>
+                        <outlet property="button2" destination="fNG-o0-YYz" id="CCb-Xm-Cg2"/>
+                        <outlet property="button3" destination="H7D-Rw-OfG" id="5P4-n0-hNQ"/>
+                        <outlet property="label1" destination="zZs-Vs-qfM" id="nah-yV-tqd"/>
+                        <outlet property="label2" destination="Mxf-2L-HeR" id="bf3-2U-wv8"/>
+                        <outlet property="label3" destination="bZf-bs-bAe" id="9QO-DI-KU4"/>
+                        <outlet property="topImageView" destination="xEk-Ej-8fl" id="wYC-oJ-mGR"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="brg-8c-Nhp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
