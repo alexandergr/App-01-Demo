@@ -17,6 +17,7 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CustomTextField" customModule="App_01_Demo" customModuleProvider="target">
             <connections>
                 <outlet property="label" destination="IO4-cP-2so" id="xuq-od-Nme"/>
+                <outlet property="separatorView" destination="T3A-K6-78A" id="buC-Ah-i21"/>
                 <outlet property="textField" destination="iNj-vc-iey" id="IVM-rI-7el"/>
             </connections>
         </placeholder>
