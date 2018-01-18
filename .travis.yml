@@ -1,0 +1,5 @@
+language: swift
+xcode_project: App-01-Demo.xcodeproj
+xcode_scheme: App-01-Demo
+osx_image: xcode9.1
+
